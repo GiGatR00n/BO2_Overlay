@@ -1,0 +1,241 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C86E908F-A99F-4798-819E-F0B701FBED59/f:DX11FontWrapper.h" caret="339" fromTop="11" />
+      <File id="C86E908F-A99F-4798-819E-F0B701FBED59/f:DX11FontWrapper.cpp" caret="125" fromTop="5" />
+      <File id="1F50D114-1B5C-4822-B3AA-659A0B3CF62E/f:TextBlockRenderer.cs" caret="20983" fromTop="19" />
+      <File id="1F50D114-1B5C-4822-B3AA-659A0B3CF62E/f:SpriteRenderer.cs" caret="13257" fromTop="0" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/d:ScreenshotInterface/f:HookManager.cs" caret="0" fromTop="0" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:D3D9.cs" caret="1236" fromTop="20" />
+      <File id="F6FB7CAD-7FBA-448B-98D7-B20FA24600BF/f:Form1.cs" caret="4112" fromTop="15" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D10.cs" caret="9642" fromTop="17" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXGI.cs" caret="1001" fromTop="17" />
+      <File id="3861EB11-DBA2-4E27-A814-B1267BA83EF0/f:D3D11.h" caret="361796" fromTop="23" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:BaseDXHook.cs" caret="1684" fromTop="27" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="5444" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="18272" fromTop="14" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="21259" fromTop="25" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="21257" fromTop="26" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="20500" fromTop="16" />
+      <File id="1F50D114-1B5C-4822-B3AA-659A0B3CF62E/f:SpriteRenderer.cs" caret="7922" fromTop="6" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="10300" fromTop="11" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="20810" fromTop="25" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="20825" fromTop="28" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="21266" fromTop="34" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="6833" fromTop="27" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="6806" fromTop="26" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="23249" fromTop="16" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="23961" fromTop="23" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="5553" fromTop="19" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="23775" fromTop="20" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="8158" fromTop="9" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="8539" fromTop="18" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="7592" fromTop="17" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="7618" fromTop="17" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="7116" fromTop="16" />
+      <File id="0E19B078-C22D-4C1B-81AA-BF6CA48609E0/f:DXHookD3D11.cs" caret="19342" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="void" priority="63" />
+      <Item value="texture" priority="1194" />
+      <Item value="Direct3D11" priority="135" />
+      <Item value="Device`0" priority="149" />
+      <Item value="swapChain" priority="256" />
+      <Item value="SwapChain`0" priority="95" />
+      <Item value="swapChainNew" priority="31" />
+      <Item value="null" priority="64" />
+      <Item value="SwapChainDescription`0" priority="32" />
+      <Item value="D3DCompiler" priority="26" />
+      <Item value="this" priority="223" />
+      <Item value="#endregion" priority="31" />
+      <Item value="KeyedMutex" priority="50" />
+      <Item value="desc" priority="63" />
+      <Item value="TextureLoadInformation`0" priority="63" />
+      <Item value="new" priority="545" />
+      <Item value="device10_1" priority="63" />
+      <Item value="SlimDX" priority="157" />
+      <Item value="Direct3D10" priority="26" />
+      <Item value="Device" priority="147" />
+      <Item value="adapter1" priority="31" />
+      <Item value="DXGI" priority="53" />
+      <Item value="Adapter`0" priority="58" />
+      <Item value="factory1" priority="31" />
+      <Item value="device10" priority="31" />
+      <Item value="ResourceUsage`0" priority="32" />
+      <Item value="device11" priority="31" />
+      <Item value="Texture2D`0" priority="63" />
+      <Item value="DestinationRegion" priority="31" />
+      <Item value="ElementCount" priority="32" />
+      <Item value="Filter" priority="32" />
+      <Item value="FilterFlags`0" priority="32" />
+      <Item value="FirstDestinationElement" priority="32" />
+      <Item value="FirstDestinationMip" priority="32" />
+      <Item value="FirstSourceElement" priority="32" />
+      <Item value="FirstSourceMip" priority="32" />
+      <Item value="MipCount" priority="32" />
+      <Item value="MipFilter" priority="32" />
+      <Item value="SourceRegion" priority="32" />
+      <Item value="ResourceRegion`0" priority="32" />
+      <Item value="Back" priority="31" />
+      <Item value="Bottom" priority="32" />
+      <Item value="Front" priority="32" />
+      <Item value="Left" priority="32" />
+      <Item value="Right" priority="32" />
+      <Item value="Top" priority="32" />
+      <Item value="texture1" priority="95" />
+      <Item value="internal" priority="30" />
+      <Item value="class" priority="30" />
+      <Item value="renderTarget" priority="63" />
+      <Item value="SamplerState`0" priority="31" />
+      <Item value="RenderTarget`0" priority="63" />
+      <Item value="LayoutKind`0" priority="31" />
+      <Item value="Rectangle" priority="25" />
+      <Item value="Height" priority="31" />
+      <Item value="Location" priority="32" />
+      <Item value="Point" priority="28" />
+      <Item value="Size" priority="61" />
+      <Item value="Width" priority="32" />
+      <Item value="X" priority="32" />
+      <Item value="Y" priority="32" />
+      <Item value="TextFormat" priority="28" />
+      <Item value="factory" priority="31" />
+      <Item value="FontWeight`0" priority="31" />
+      <Item value="FontWeight" priority="57" />
+      <Item value="fontWeight" priority="63" />
+      <Item value="FontStyle`0" priority="31" />
+      <Item value="FontStyle" priority="28" />
+      <Item value="DirectWrite" priority="53" />
+      <Item value="FontStretch`0" priority="31" />
+      <Item value="FontStretch" priority="28" />
+      <Item value="Color4`0" priority="26" />
+      <Item value="Color4" priority="25" />
+      <Item value="Alpha" priority="31" />
+      <Item value="color4" priority="32" />
+      <Item value="Factory`0" priority="26" />
+      <Item value="Factory" priority="25" />
+      <Item value="LocalHook`0" priority="63" />
+      <Item value="_dxgiSwapChainVTblAddresses" priority="31" />
+      <Item value="int" priority="128" />
+      <Item value="DXGI`0" priority="31" />
+      <Item value="return" priority="31" />
+      <Item value="unsafe" priority="31" />
+      <Item value="var" priority="31" />
+      <Item value="device" priority="159" />
+      <Item value="viewport" priority="63" />
+      <Item value="context" priority="63" />
+      <Item value="sprite" priority="95" />
+      <Item value="myTextBlockRenderer" priority="63" />
+      <Item value="FeatureLevel`0" priority="63" />
+      <Item value="DeviceContext`0" priority="31" />
+      <Item value="DriverType`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.Direct3D11.Texture2D">
+      <Item value="Device" priority="431" />
+      <Item value="Description" priority="467" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.Direct3D11.Device">
+      <Item value="GetType`0" priority="26" />
+      <Item value="Factory" priority="53" />
+      <Item value="InternalPointer" priority="26" />
+      <Item value="OpenSharedResource`1" priority="80" />
+      <Item value="ImmediateContext" priority="26" />
+      <Item value="Dispose`0" priority="26" />
+      <Item value="ComPointer" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.DXGI.SwapChain">
+      <Item value="Description" priority="54" />
+      <Item value="Device" priority="107" />
+      <Item value="GetParent`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.DXGI.SwapChainDescription">
+      <Item value="OutputHandle" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ScreenshotInject.DXHookD3D11">
+      <Item value="DebugMessage`0" priority="135" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.Direct3D11.Texture2DDescription">
+      <Item value="OptionFlags" priority="108" />
+      <Item value="Width" priority="82" />
+      <Item value="Height" priority="55" />
+      <Item value="MipLevels" priority="27" />
+      <Item value="ArraySize" priority="27" />
+      <Item value="Format" priority="27" />
+      <Item value="SampleDescription" priority="27" />
+      <Item value="Usage" priority="27" />
+      <Item value="BindFlags" priority="27" />
+      <Item value="CpuAccessFlags" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.DXGI.Factory1">
+      <Item value="GetAdapter`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SlimDX.Direct3D10.ResourceOptionFlags">
+      <Item value="None" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SlimDX.Direct3D11.FilterFlags">
+      <Item value="None" priority="55" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EasyHook.LocalHook">
+      <Item value="Create`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ScreenshotInject.DXGI">
+      <Item value="DXGISwapChainVTbl`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EasyHook.LocalHook">
+      <Item value="ThreadACL" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EasyHook.HookAccessControl">
+      <Item value="SetExclusiveACL`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SlimDX.Direct2D.RenderTarget">
+      <Item value="FromDXGI`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.DXGI.Device">
+      <Item value="Adapter" priority="26" />
+      <Item value="InternalPointer" priority="26" />
+      <Item value="ComPointer" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SlimDX.Direct3D11.Device">
+      <Item value="FromPointer`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.Direct3D11.DeviceContext">
+      <Item value="Dispose`0" priority="26" />
+      <Item value="Rasterizer" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SpriteTextRenderer.SpriteRenderer">
+      <Item value="Dispose`0" priority="53" />
+      <Item value="Draw`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SpriteTextRenderer.TextBlockRenderer">
+      <Item value="Dispose`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.Direct3D11.RenderTargetView">
+      <Item value="Dispose`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SlimDX.Direct3D11.RasterizerWrapper">
+      <Item value="SetViewports`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

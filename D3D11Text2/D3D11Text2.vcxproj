@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05C46122-82A2-4B72-B5BC-1DC3AB968C48}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>D3D11Text2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;D3D11TEXT2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;D3D11TEXT2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1ColorRGBA.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1DWriteRenderTarget.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1Factory.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1FontWrapper.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphAtlas.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphProvider.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphRenderStates.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphSheet.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphVertexDrawer.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1Object.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1StateSaver.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextGeometry.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextRenderer.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\FW1CompileSettings.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\FW1FontWrapper.h" />
+    <ClInclude Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\FW1Precompiled.h" />
+    <ClInclude Include="DX11FontWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1ColorRGBA.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1ColorRGBAInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1DWriteRenderTarget.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1DWriteRenderTargetInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1Factory.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1FactoryInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1FontWrapper.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1FontWrapperInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphAtlas.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphAtlasInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphProvider.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphProviderInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphRenderStates.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphRenderStatesInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphSheet.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphSheetInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphVertexDrawer.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphVertexDrawerInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1StateSaver.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextGeometry.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextGeometryInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextRenderer.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextRendererInterface.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\FW1FontWrapper.cpp" />
+    <ClCompile Include="..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\FW1Precompiled.cpp" />
+    <ClCompile Include="DX11FontWrapper.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

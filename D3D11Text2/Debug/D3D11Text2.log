@@ -1,0 +1,66 @@
+﻿Build started 11/21/2012 2:54:42 PM.
+     1>Project "S:\git\Direct3DHook2\D3D11Text2\D3D11Text2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\D3D11Text2.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D D3D11TEXT2_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1ColorRGBA.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1ColorRGBAInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1DWriteRenderTarget.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1DWriteRenderTargetInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1Factory.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1FactoryInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1FontWrapper.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1FontWrapperInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphAtlas.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphAtlasInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphProvider.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphProviderInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphRenderStates.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphRenderStatesInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphSheet.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphSheetInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphVertexDrawer.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1GlyphVertexDrawerInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1StateSaver.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextGeometry.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextGeometryInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextRenderer.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\CFW1TextRendererInterface.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\FW1FontWrapper.cpp ..\..\..\Downloads\FW1FontWrapper_1_0_src\FW1FontWrapper_1_0_src\FW1FontWrapper\Source\FW1Precompiled.cpp DX11FontWrapper.cpp
+         DX11FontWrapper.cpp
+     1>s:\git\direct3dhook2\d3d11text2\dx11fontwrapper.h(2): fatal error C1083: Cannot open include file: 'FW1FontWrapper.h': No such file or directory
+         FW1Precompiled.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         FW1FontWrapper.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1TextRendererInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1TextRenderer.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1TextGeometryInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1TextGeometry.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1StateSaver.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphVertexDrawerInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphVertexDrawer.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphSheetInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphSheet.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphRenderStatesInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphRenderStates.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphProviderInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphProvider.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphAtlasInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1GlyphAtlas.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1FontWrapperInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1FontWrapper.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CFW1FactoryInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1Factory.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1DWriteRenderTargetInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1DWriteRenderTarget.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1ColorRGBAInterface.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         CFW1ColorRGBA.cpp
+     1>s:\downloads\fw1fontwrapper_1_0_src\fw1fontwrapper_1_0_src\fw1fontwrapper\source\fw1precompiled.h(9): fatal error C1083: Cannot open include file: 'D3DCompiler.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "S:\git\Direct3DHook2\D3D11Text2\D3D11Text2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.36

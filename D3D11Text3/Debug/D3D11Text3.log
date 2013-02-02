@@ -1,0 +1,33 @@
+﻿Build started 11/21/2012 4:37:35 PM.
+     1>Project "S:\git\Direct3DHook2\D3D11Text3\D3D11Text3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\D3D11Text3.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D D3D11TEXT3_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\D3D11Text3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt DX11FontWrapper.cpp /clr:nostdlib 
+         DX11FontWrapper.cpp
+     1>s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(8): error C2653: 'SlimDX' : is not a class or namespace name
+     1>s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(8): error C2653: 'SlimDX' : is not a class or namespace name
+     1>s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(8): error C2061: syntax error : identifier 'Device'
+     1>s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(11): error C2653: 'SlimDX' : is not a class or namespace name
+     1>s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(11): error C2143: syntax error : missing ';' before '^'
+     1>s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>DX11FontWrapper.cpp(5): error C2653: 'SlimDX' : is not a class or namespace name
+     1>DX11FontWrapper.cpp(5): error C2065: 'Device' : undeclared identifier
+     1>DX11FontWrapper.cpp(5): error C2065: 'device' : undeclared identifier
+     1>DX11FontWrapper.cpp(6): error C2448: 'DX11FontWrapper::{ctor}' : function-style initializer appears to be a function definition
+     1>DX11FontWrapper.cpp(25): error C2039: 'device' : is not a member of 'DX11FontWrapper'
+                 s:\git\direct3dhook2\d3d11text3\DX11FontWrapper.h(6) : see declaration of 'DX11FontWrapper'
+     1>DX11FontWrapper.cpp(25): error C2227: left of '->ImmediateContext' must point to class/struct/union/generic type
+     1>DX11FontWrapper.cpp(25): error C2227: left of '->ComPointer' must point to class/struct/union/generic type
+     1>DX11FontWrapper.cpp(25): error C2228: left of '.ToPointer' must have class/struct/union
+     1>DX11FontWrapper.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>DX11FontWrapper.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>Done Building Project "S:\git\Direct3DHook2\D3D11Text3\D3D11Text3.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.00
